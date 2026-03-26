@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
-site_name: Test Docs - Ivy
-site_url: https://voiid16.github.io/mkdocs-test/
+site_name: Postman API Documentation
+site_url: https://github.com/voiid16/Postman-API-Documentation
 
 theme:
   name: material
@@ -25,7 +25,6 @@ theme:
     - navigation.footer
     - search.suggest
     - content.code.copy
-    - mermaid
 
 nav:
   - Home: index.md
@@ -34,30 +33,7 @@ nav:
   - Task 3: Task3.md
   - Task 4: Task4.md
   - Troubleshooting: troubleshooting.md
-
-  # - Getting Started:
-  #     - Intro: getting-started/intro.md
-  #     - MkDocs vs Material for MkDocs: getting-started/mkdocs-vs-material.md
-  #     - Prerequisites: getting-started/prerequisites.md
-  #     - Demo Prerequisites: getting-started/demo-prerequisites.md
-  #     - Initial Installation: getting-started/installation.md
-
-  # - Configuration:
-  #     - Schema Validation: configuration/schema-validation.md
-  #     - Color Scheme: configuration/color-scheme.md
-  #     - Font: configuration/font.md
-  #     - Emojis: configuration/emojis.md
-  #     - Icons and Logos: configuration/icons-logos.md
-  #     - Footer: configuration/footer.md
-
-  # - Features:
-  #     - Code Blocks: features/code-blocks.md
-  #     - Content Tabs: features/content-tabs.md
-  #     - Admonitions: features/admonitions.md
-  #     - Diagrams: features/diagrams.md
-
-  # - Publishing:
-  #     - Publishing Your Site: publishing/publishing.md
+  - Glossary: glossary.md
 
 extra_css:
   - stylesheets/extra.css
