@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: Test Docs - Ivy
-site_url: https://example.com/docs
+site_url: https://voiid16.github.io/mkdocs-test/
 
 theme:
   name: material
