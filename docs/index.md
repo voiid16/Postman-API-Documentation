@@ -73,4 +73,4 @@ This guide uses the following conventions to improve clarity:
     This is a helpful tip or reminder.
 
 !!! warning
-    This is an important caution to prevent errors.gggggffffggg
+    This is an important caution to prevent errors.
