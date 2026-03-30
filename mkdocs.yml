@@ -18,11 +18,14 @@ theme:
         icon: material/weather-night
         name: Switch to light mode
   font:
-    text: Lora
+    text: IBM Plex Sans
+    code: IBM Plex Mono
   features:
-    - navigation.tabs
     - navigation.top
     - navigation.footer
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
     - search.suggest
     - content.code.copy
 

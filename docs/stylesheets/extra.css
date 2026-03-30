@@ -7,7 +7,7 @@
    #9faa74  Sage      — code / success
    =========================================== */
 
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Cascadia+Code:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap");
 
 :root {
   --ash: #d8d4d1;
@@ -119,4 +119,35 @@
 .md-typeset .tip > .admonition-title::before,
 .md-typeset .tip > summary::before {
   background-color: var(--sage);
+}
+
+/* ── Hide site name in sidebar ── */
+.md-nav--primary .md-nav__title[for="__drawer"] {
+  display: none;
+}
+
+/* ── Nav font size & spacing ── */
+.md-nav--primary .md-nav__link {
+  font-size: 0.8rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  letter-spacing: 0.01em;
+}
+
+/* ── Top-level nav items slightly bolder ── */
+.md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--driftwood);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* ── Dark mode top-level nav ── */
+[data-md-color-scheme="slate"]
+  .md-nav--primary
+  > .md-nav__list
+  > .md-nav__item
+  > .md-nav__link {
+  color: var(--driftwood);
 }
