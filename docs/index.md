@@ -1,11 +1,13 @@
-# Introduction
+# Postman User Guide — Introduction
 
-Postman is one of the most widely used tools for exploring, testing, and debugging RESTful APIs.  
+## Introduction
+
+[Postman](https://www.postman.com) is one of the most widely used tools for exploring, testing, and debugging RESTful APIs.
 This user guide introduces the essential features of Postman and provides step‑by‑step instructions for performing common API testing tasks. It is designed for beginners who are new to API development but already understand the basic concepts of REST.
 
 Whether you are validating backend endpoints, experimenting with HTTP requests, or learning how client–server communication works, this guide will help you build confidence using Postman in a real development workflow.
 
-# Intended Users
+## Intended Users
 
 This guide is written for:
 
@@ -16,23 +18,23 @@ This guide is written for:
 
 This document assumes no prior experience with Postman itself.
 
-# Prerequisite Knowledge
+## Prerequisite Knowledge
 
 Before using this guide, readers should already understand:
 
-- The basic structure of a **RESTful API**  
+- The basic structure of a [RESTful API](https://restfulapi.net/)  
   (resources, endpoints, HTTP verbs, request/response cycle)
-- Common HTTP methods: **GET**, **POST**, **PUT**, **DELETE**
-- Basic JSON formatting
+- Common HTTP methods: [GET, POST, PUT, DELETE](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+- Basic [JSON](https://www.json.org/json-en.html) formatting
 - How to install desktop applications on their operating system
 
 No programming experience is required, but it will be helpful when working with more advanced examples.
 
-# Software Requirements
+## Software Requirements
 
 To follow the tasks in this guide, users must have:
 
-- **Postman Desktop Application**  
+- [Postman Desktop Application](https://www.postman.com/downloads/)  
   (Windows, macOS, or Linux — latest stable version recommended)
 - A stable internet connection
 - Access to at least one API endpoint for testing  
@@ -40,12 +42,12 @@ To follow the tasks in this guide, users must have:
 
 Optional but recommended:
 
-- A code editor (e.g., Visual Studio Code)
-- A browser with developer tools (Chrome, Firefox, Edge)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- A browser with developer tools ([Chrome](https://www.google.com/chrome/), [Firefox](https://www.mozilla.org/firefox/), [Edge](https://www.microsoft.com/edge))
 
-# Overview of Tasks
+## Overview of Tasks
 
-This guide is organized into several hands‑on tasks that introduce Postman’s core features:
+This guide is organized into several hands‑on tasks that introduce Postman's core features:
 
 1. **Task 1 — Sending a Basic GET Request**  
    Learn how to send your first request and read the response.
@@ -61,7 +63,7 @@ This guide is organized into several hands‑on tasks that introduce Postman’s
 
 Each task builds on the previous one, allowing beginners to gradually develop confidence using Postman.
 
-# Typographical Conventions
+## Typographical Conventions
 
 This guide uses the following conventions to improve clarity:
 
